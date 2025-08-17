@@ -1,151 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ahmed Abbas Ghulam - Portfolio</title>
-  <meta name="description" content="Ahmed Abbas Ghulam - Computer Science student portfolio, skills, experience and contact info." />
+  <title>Ahmed Abbas Ghulam — Portfolio</title>
+  <meta name="description" content="Portfolio of Ahmed Abbas Ghulam — Computer Science student. Skills, experience, and contact information." />
+  <meta name="author" content="Ahmed Abbas Ghulam" />
   <meta name="keywords" content="Ahmed Abbas Ghulam, Computer Science, portfolio, programming, Python, C++" />
+
   <link rel="icon" href="https://i.imgur.com/MZRNiuW.jpeg" type="image/png" />
-  <link rel="apple-touch-icon" href="/https://i.imgur.com/MZRNiuW.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
-<body data-theme="dark">
+<body>
+  <a class="skip-link" href="#intro">Skip to content</a>
 
-  <nav>
-    <a href="#about">About Me</a>
-    <a href="#education">Education</a>
-    <a href="#experience">Experience</a>
-    <a href="#skills">Skills</a>
-    <a href="#languages">Languages</a>
-    <a href="#contact">Contact Me</a>
-  </nav>
+  <header class="site-header">
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#languages">Languages</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" type="button" aria-label="Switch theme" title="Toggle theme"></button>
+    </nav>
+  </header>
 
-  <main class="container">
-    <img src="https://i.imgur.com/MZRNiuW.jpeg" alt="Profile picture" class="profile-pic" />
+  <main id="main" class="container">
+    <img src="https://i.imgur.com/MZRNiuW.jpeg" alt="Portrait of Ahmed Abbas Ghulam" class="profile-pic" />
 
-    <section id="intro" class="visible">
+    <section id="intro" class="reveal">
       <header>
-        <h1>Ahmed Abbas Ghulam</h1>
+        <h1>Ahmed Abbas</h1>
       </header>
-      <p>Motivated and adaptable Computer Science student with a strong background in customer service and team leadership. Proven ability to handle high-end retail environments and manage construction site operations. Quick learner, strong communicator, and passionate about technology.</p>
-      <p>I value clarity, precision, and results. If that sounds like someone you want on your team, let’s talk.</p>
+      <p>Motivated and adaptable Computer Science student with solid experience in customer service and team leadership. Comfortable in high‑end retail and construction site coordination. Fast learner, clear communicator, and hands‑on with technology.</p>
+      <p>I value clarity, precision, and results. If that’s what you need, let’s talk.</p>
     </section>
 
-    <section id="about">
+    <section id="about" class="reveal">
       <h2>About Me</h2>
-      <p><strong>Location:</strong> Inner Karada, Baghdad, Iraq<br />
-      <strong>Phone:</strong> +9647708952777<br />
-      <strong>Email:</strong> <a href="mailto:ahmadabass494@yahoo.com">ahmadabass494@yahoo.com</a></p>
+      <p>
+        <strong>Location:</strong> Inner Karada, Baghdad, Iraq<br />
+        <strong>Phone:</strong> <a href="tel:+9647708952777">+9647708952777</a><br />
+        <strong>Email:</strong> <a href="mailto:ahmadabass494@yahoo.com">ahmadabass494@yahoo.com</a>
+      </p>
     </section>
 
-    <section id="education">
+    <section id="education" class="reveal">
       <h2>Education</h2>
-      <p><strong>B.Sc. in Computer Science</strong> (In Progress)<br />
-      University of Technology, Baghdad<br />
-      Third year student – expected graduation at 2027</p>
+      <p>
+        <strong>B.Sc. in Computer Science</strong> (In Progress)<br />
+        University of Technology, Baghdad<br />
+        Third‑year student — expected graduation 2027
+      </p>
     </section>
 
-    <section id="experience">
+    <section id="experience" class="reveal">
       <h2>Work Experience</h2>
+
       <article>
-        <h3>Sales Associate – Luxury Clothing Stores</h3>
-        <p><em>Baghdad, Iraq | Multiple Roles Over Several Years</em></p>
+        <h3>Sales Associate — Luxury Clothing Stores</h3>
+        <p><em>Baghdad, Iraq · Multiple roles over several years</em></p>
         <ul>
-          <li>Delivered premium customer service in upscale fashion retail environments</li>
-          <li>Managed inventory, styled clients, and ensured a high-end store appearance</li>
-          <li>Built trust and repeat relationships with clientele through strong interpersonal skills</li>
+          <li>Delivered premium customer service in upscale fashion retail environments.</li>
+          <li>Managed inventory, styled clients, and maintained a high‑end store appearance.</li>
+          <li>Built trust and repeat relationships with clientele through strong interpersonal skills.</li>
         </ul>
       </article>
+
       <article>
-        <h3 style="font-weight:500; font-style:italic;">Site Supervisor – Residential Complex Construction</h3>
+        <h3>Site Supervisor — Residential Complex Construction</h3>
         <p><em>Baghdad, Iraq</em></p>
         <ul>
-          <li>Oversaw daily operations and labor tasks on a housing project site</li>
-          <li>Coordinated between engineers, workers, and suppliers</li>
-          <li>Ensured safety regulations and timelines were followed</li>
+          <li>Oversaw daily operations and labor tasks on a housing project site.</li>
+          <li>Coordinated between engineers, workers, and suppliers.</li>
+          <li>Ensured safety regulations and timelines were followed.</li>
         </ul>
       </article>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="reveal">
       <h2>Skills</h2>
-      <ul>
+      <ul class="skills">
         <li>C++</li>
         <li>Python</li>
         <li>HTML/CSS</li>
-        <li>Problem-solving</li>
+        <li>Problem‑solving</li>
         <li>Team Management</li>
         <li>Customer Service</li>
-        <li>Communication & Leadership</li>
+        <li>wordpress</li>
+        <li>Elemetor Pro</li>
       </ul>
     </section>
 
-    <section id="languages">
+    <section id="languages" class="reveal">
       <h2>Languages</h2>
       <ul>
-        <li>Arabic – Native</li>
-        <li>English – Good working proficiency</li>
+        <li>Arabic — Native</li>
+        <li>English — Good working proficiency</li>
       </ul>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="reveal">
       <h2>Contact Me</h2>
-      <p><strong>Email:</strong> <a href="mailto:ahmadabass494@yahoo.com">ahmadabass494@yahoo.com</a><br />
-      <strong>Phone:</strong> <a href="tel:+9647708952777">+9647708952777</a></p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:ahmadabass494@yahoo.com">ahmadabass494@yahoo.com</a><br />
+        <strong>Phone:</strong> <a href="tel:+9647708952777">+9647708952777</a>
+      </p>
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <a href="https://t.me/ahmed_abba" target="_blank" aria-label="Telegram">
-      <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="telegramTitle">
+        <title id="telegramTitle">Telegram</title>
         <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
         <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
       </svg>
     </a>
-    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-color); user-select: none;">
-      © 2025 Ahmed Abbas Ghulam
-    </p>
+    <small class="copyright">© 2025 Ahmed Abbas Ghulam</small>
   </footer>
 
-  <button id="scrollTopBtn" aria-label="Scroll to top">&#8679;</button>
+  <button id="scrollTopBtn" aria-label="Scroll to top" title="Back to top">/\</button>
 
-  <script>
-    // Fade in sections on scroll
-    const sections = document.querySelectorAll('section');
-    const observerOptions = { threshold: 0.1 };
-    const observer = new IntersectionObserver((entries, obs) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          obs.unobserve(entry.target);
-        }
-      });
-    }, observerOptions);
-    sections.forEach(section => observer.observe(section));
-
-    // Scroll-to-top button
-    const scrollBtn = document.getElementById('scrollTopBtn');
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 300) {
-        scrollBtn.classList.add('show');
-      } else {
-        scrollBtn.classList.remove('show');
-      }
-    });
-    scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-
-    // Dark mode system preference detection & toggle
-    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
-    const body = document.body;
-    if(prefersDarkScheme.matches){
-      body.setAttribute('data-theme', 'dark');
-    } else {
-      body.setAttribute('data-theme', 'light');
-    }
-
-  </script>
+  <script src="app.js" defer></script>
+  <script src="theme-toggle.js" defer></script>
 </body>
 </html>
-
