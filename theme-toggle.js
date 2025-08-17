@@ -11,7 +11,7 @@
     if (!btn) return;
     const mode = root.getAttribute('data-theme');
     btn.setAttribute('aria-label', mode === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
-    btn.textContent = mode === 'dark' ? '☀︎' : '☾';
+    btn.textContent = mode === 'dark' ? 'Light' : 'Dark';
   }
   updateButton();
 
