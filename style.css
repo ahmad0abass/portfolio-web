@@ -11,7 +11,7 @@
   --section-border: #888888;
   --shadow-color: rgba(0,0,0,0.6);
   --glow-color: #D98D3C;
-  --focus-ring: 0 0 0 3px rgba(217,141,60,0.45);
+
 }
 
 html[data-theme="light"] {
@@ -24,7 +24,6 @@ html[data-theme="light"] {
   --section-border: #CCCCCC;
   --shadow-color: rgba(0,0,0,0.1);
   --glow-color: #D98D3C;
-  --focus-ring: 0 0 0 3px rgba(217,141,60,0.45);
 }
 
 
