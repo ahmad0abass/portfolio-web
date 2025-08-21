@@ -5,7 +5,7 @@
   --bg: #121212;
   --container-bg: #1B263B;
   --text-color: #FFFFFF;
-  --accent-color: #D98D3C;
+  --accent-color: rgba(217, 141, 60, 1);
   --highlight-color: #C9A227;
   --section-bg: #1B263B;
   --section-border: #888888;
@@ -18,7 +18,7 @@ html[data-theme="light"] {
   --bg: #F5F5F5;
   --container-bg: #FFFFFF;
   --text-color: #222222;
-  --accent-color: #D98D3C;
+  --accent-color: rgba(217, 141, 60, 1);
   --highlight-color: #C9A227;
   --section-bg: #FFFFFF;
   --section-border: #CCCCCC;
