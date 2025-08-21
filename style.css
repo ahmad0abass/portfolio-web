@@ -2,27 +2,30 @@
    THEME VARIABLES
    ========================= */
 :root {
-  --bg: linear-gradient(180deg, #121212 0%, #1b263b 100%);
-  --container-bg: rgba(0,0,0,0.7);
-  --text-color: #fff;
+  --bg: #121212;
+  --container-bg: #1B263B;
+  --text-color: #FFFFFF;
   --accent-color: #D98D3C;
-  --section-bg: rgba(255,255,255,0.08);
-  --section-border: rgba(255,255,255,0.15);
-  --shadow-color: rgba(217, 141, 60, 0.35);
+  --highlight-color: #C9A227;
+  --section-bg: #1B263B;
+  --section-border: #888888;
+  --shadow-color: rgba(0,0,0,0.6);
   --glow-color: #D98D3C;
   --focus-ring: 0 0 0 3px rgba(217,141,60,0.45);
 }
 
 html[data-theme="light"] {
-  --bg: linear-gradient(180deg, #f5f5f5 0%, #ffffff 100%);
-  --container-bg: rgba(255, 255, 255, 0.9);
-  --text-color: #222;
+  --bg: #F5F5F5;
+  --container-bg: #FFFFFF;
+  --text-color: #222222;
   --accent-color: #D98D3C;
-  --section-bg: #fff;
-  --section-border: #ccc;
-  --shadow-color: rgba(217, 141, 60, 0.2);
+  --highlight-color: #C9A227;
+  --section-bg: #FFFFFF;
+  --section-border: #CCCCCC;
+  --shadow-color: rgba(0,0,0,0.1);
   --glow-color: #D98D3C;
 }
+
 
 /* =========================
    RESET
