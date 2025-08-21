@@ -3,7 +3,7 @@
    ========================= */
 :root {
   --bg: #121212;
-  --container-bg: #1B263B;
+  --container-bg: rgba(27, 38, 59, 0.5);
   --text-color: #FFFFFF;
   --accent-color: rgba(217, 141, 60, 1);
   --highlight-color: #C9A227;
@@ -16,7 +16,7 @@
 
 html[data-theme="light"] {
   --bg: #F5F5F5;
-  --container-bg: #FFFFFF;
+  --container-bg: rgba(255, 255, 255, 0.5);
   --text-color: #222222;
   --accent-color: rgba(217, 141, 60, 1);
   --highlight-color: #C9A227;
